@@ -5,7 +5,7 @@ import React from "react";
 const socials = [
   {
     label: "instagram",
-    path: "https://instagram.com/s.tarz.me",
+    path: "https://instagram.com/tarz.me",
     iconPath: "/assets/images/icons/icon-instagram.svg",
   },
   {
@@ -65,7 +65,7 @@ const Hero = () => {
 
       <section className="mt-12">
         <h1 className="text-lg">
-          Hi I&apos;m Tarun, A student pursuing BCA. <br /> I&apos;m alse a self taught
+          Hi I&apos;m Tarun, A student pursuing BCA. <br /> I&apos;m also a self taught
           web developer who loves to build <br /> websites for fun.
         </h1>
         <Link href="/about" className="flex gap-2 items-center mt-4 opacity-60 ">
