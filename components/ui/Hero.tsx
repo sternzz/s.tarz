@@ -5,7 +5,7 @@ import React from "react";
 const socials = [
   {
     label: "instagram",
-    path: "https://instagram.com/tarz.me",
+    path: "https://instagram.com/tarun.xg",
     iconPath: "/assets/images/icons/icon-instagram.svg",
   },
   {
@@ -68,13 +68,13 @@ const Hero = () => {
           Hi I&apos;m Tarun, A student pursuing BCA. <br /> I&apos;m also a self taught
           web developer who loves to build <br /> websites for fun.
         </h1>
-        <Link href="/about" className="flex gap-2 items-center mt-4 opacity-60 ">
+        <Link href="/about" className="group flex gap-2 items-center mt-4 w-max py-2 hover:text-sky-600 ">
           <Image
             src="/assets/images/icons/icon-arr-diag.svg"
             alt="profile-picture"
             width={20}
             height={20}
-            className="object-cover"
+            className="object-cover group-hover:-translate-y-1 group-hover:translate-x-1 transition-all duration-300 ease-linear"
           />
           <p>More about me</p>
         </Link>

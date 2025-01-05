@@ -14,10 +14,10 @@ const Skills = () => {
           <div className="mt-4 flex flex-col gap-2 px-4 pb-2">
             <p>HTML</p>
             <p>CSS</p>
-            <p>React/Next.js</p>
-            <p>API using Express.js</p>
             <p>Tailwind CSS</p>
-            <p>Novice at Typescript</p>
+            <p>React/Next.js</p>
+            <p>API's using Express.js</p>
+            <p>Typescript (Basics)</p>
           </div>
         </div>
         <div className=" bg-neutral-900 mt-6 rounded-xl h-40 border border-white/5 overflow-hidden ">
@@ -27,8 +27,8 @@ const Skills = () => {
           </div>
 
           <div className="mt-4 flex flex-col gap-2 px-4 pb-2">
-            <p>Started learning C Language</p>
-            <p>Basic UI Designing</p>
+            <p>C Language (Basics)</p>
+            <p>UI Designing (Basics)</p>
           </div>
         </div>
       </div>

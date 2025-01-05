@@ -25,8 +25,8 @@ const Projects = () => {
         <h2 className="text-2xl text-sky-600 ">Featured Projects</h2>
       </div>
       <div className="mt-8">
-        <p>Kinda hard to deploy each of my projects</p>
-        <p>Each of these links points to its respective GitHub repo.</p>
+        <p>Kinda hard to deploy every one of my projects</p>
+        <p>The links points to their respective GitHub repo.</p>
       </div>
 
       <div className="mt-12 text-center flex flex-col gap-4">
@@ -35,15 +35,15 @@ const Projects = () => {
         ))}
       </div>
 
-      <Link href="/projects" className="flex gap-2 items-center mt-8 opacity-60 ">
+      <Link href="https://github.com/sternzz" target="_blank" className="group flex gap-2 items-center mt-8 w-max py-2 hover:text-sky-600 ">
           <Image
             src="/assets/images/icons/icon-arr-diag.svg"
             alt="profile-picture"
             width={20}
             height={20}
-            className="object-cover"
+            className="object-cover group-hover:-translate-y-1 group-hover:translate-x-1 transition-all duration-300 ease-linear"
           />
-          <p>More Projects</p>
+          <p>More Projects - Github</p>
         </Link>
 
     </section>

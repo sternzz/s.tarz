@@ -14,8 +14,8 @@ const navItems = [
     path: "/about",
   },
   {
-    label: "projects",
-    path: "/projects",
+    label: "blog",
+    path: "/blog",
   },
 ];
 
