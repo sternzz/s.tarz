@@ -16,7 +16,7 @@ const Skills = () => {
             <p>CSS</p>
             <p>Tailwind CSS</p>
             <p>React/Next.js</p>
-            <p>API's using Express.js</p>
+            <p>API&apos;s using Express.js</p>
             <p>Typescript (Basics)</p>
           </div>
         </div>
