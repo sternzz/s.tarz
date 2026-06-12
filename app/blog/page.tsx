@@ -6,7 +6,7 @@ const Blog = () => {
     <section className="mt-12 h-full">
       <div className="mt-12 text-center">
         <h3 className="text-2xl">Blog</h3>
-        <h3 className="text-xl">Tarun is still thinking what to put here 🤔</h3>
+        <h3 className="text-xl">Still nothing</h3>
         <small>Check back later</small>
         <Link
           href="/"
